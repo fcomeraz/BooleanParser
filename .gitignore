@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# Carpetas de Netbeans
+build/
+dist/
+nbproject/
+Makefile
