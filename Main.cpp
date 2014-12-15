@@ -41,11 +41,13 @@ void printNode(Node *n){
  * 
  */
 int main(int argc, char** argv) {
-    char * input = "~a&(~b|c)";  
+    char * input = "a|d|b&c";  
     
     Parser p(input);
     Node *n = p.Parse();
     printNode(n);
+    
+    
     
     return 0;
 }

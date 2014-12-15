@@ -1,10 +1,12 @@
 S -> S'
    | epsilon
 
-S'-> T & S'
-   | T | S'
+S'-> T | S'
    | T
 
-T -> id
-   | ~ T
+T -> U & S'
+   | U
+
+U -> id
+   | ~ U
    | (S')

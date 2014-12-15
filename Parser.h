@@ -25,6 +25,7 @@ private:
     Node* S();
     Node* Sp();
     Node* T();
+    Node* U();
 };
 
 #endif	/* PARSER_H */
