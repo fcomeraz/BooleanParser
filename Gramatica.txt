@@ -1,0 +1,10 @@
+S -> S'
+   | epsilon
+
+S'-> T & S'
+   | T | S'
+   | T
+
+T -> id
+   | ~ T
+   | (S')
